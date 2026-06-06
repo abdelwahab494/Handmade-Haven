@@ -12,7 +12,7 @@ class HomeNavBar extends StatelessWidget {
     return SliverAppBar(
       pinned: true,
       backgroundColor: AppColors.FFF8F0,
-      toolbarHeight: 120,
+      toolbarHeight: 120.hg,
       elevation: 0,
       scrolledUnderElevation: 0,
       flexibleSpace: FlexibleSpaceBar(

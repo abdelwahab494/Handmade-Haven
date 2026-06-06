@@ -64,34 +64,34 @@ class CommunitySection extends StatelessWidget {
                         hintText: 'Enter your email',
                         hintStyle: GoogleFonts.dmSans(
                           color: const Color(0xFF9A9292),
-                          fontSize: 24,
+                          fontSize: 24.fs,
                           fontWeight: FontWeight.w400,
                         ),
                         filled: true,
                         fillColor: const Color(0xFFFDFDFD),
-                        contentPadding: const EdgeInsets.symmetric(
-                          horizontal: 48,
-                          vertical: 32,
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: 48.wd,
+                          vertical: 32.hg,
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(1000),
-                          borderSide: const BorderSide(
-                            color: Color(0xFFFFE6E6),
-                            width: 2,
+                          borderSide: BorderSide(
+                            color: const Color(0xFFFFE6E6),
+                            width: 2.wd,
                           ),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(1000),
-                          borderSide: const BorderSide(
-                            color: Color(0xFFFFE6E6),
-                            width: 2,
+                          borderSide: BorderSide(
+                            color: const Color(0xFFFFE6E6),
+                            width: 2.wd,
                           ),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(1000),
-                          borderSide: const BorderSide(
-                            color: Color(0xFFFF7B6B),
-                            width: 2,
+                          borderSide: BorderSide(
+                            color: const Color(0xFFFF7B6B),
+                            width: 2.wd,
                           ),
                         ),
                       ),
